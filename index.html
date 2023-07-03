@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cek Pajak</title>
+    <meta
+      name="description"
+      content="Cek Informasi Pajak Kendaraan Bermotor melalui 
+    Aplikasi dari Badan dan Dinas Pendapatan Daerah Provinsi Se-Indonesia yang terhubung 
+    dengan Sistem Pajak Online untuk cek pajak mobil dan cek pajak motor."
+    />
+    <meta
+      name="keywords"
+      content="cekpajak, asuransi mobil, 
+    Cakupan asuransi, Polis asuransi, Asuransi yang terjangkau, 
+    Nasihat asuransi
+    "
+    />
+    <meta name="author" content="Insureka" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <ul>
+        <li>
+          <a class="active" href="index.html"
+            ><i class="fas fa-home home"></i> Beranda</a
+          >
+        </li>
+        <li>
+          <a href="cekpajak.html"
+            ><i class="fas fa-search same"></i> Cek Pajak</a
+          >
+        </li>
+     
+        <li style="float: right" class="right-cek-pajak">
+          <a href="cekpajak.html">
+            <i class="fas fa-search same"></i> Cek Pajak</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="heading">
+      <h1>Cek Pajak Kendaraan</h1>
+      <p>
+        Cek Informasi Pajak Kendaraan Bermotor melalui Aplikasi dari Badan dan
+        Dinas Pendapatan Daerah Provinsi Se-Indonesia yang terhubung dengan
+        Sistem Pajak Online untuk cek pajak mobil dan cek pajak motor.
+      </p>
+      <br />
+    </div>
+
+    <div class="search-container">
+      <div class="inner-box">
+        <div class="search-box-title">
+          <h2>SAMSAT information</h2>
+        </div>
+
+        <div class="search-box-code">
+          <select class="my-input" id="myDropdown">
+            <option value="">Area Code</option>
+            <option value="A">A</option>
+            <option value="AA">AA</option>
+            <option value="AB">AB</option>
+            <option value="AD">AD</option>
+            <option value="AE">AE</option>
+            <option value="AG">AG</option>
+            <option value="B">B</option>
+            <option value="BA">BA</option>
+            <option value="BB">BB</option>
+            <option value="BE">BE</option>
+            <option value="BG">BG</option>
+            <option value="BH">BH</option>
+            <option value="BK">BK</option>
+            <option value="BL">BL</option>
+            <option value="BM">BM</option>
+            <option value="BP">BP</option>
+            <option value="D">D</option>
+            <option value="DB">DB</option>
+            <option value="DD">DD</option>
+            <option value="DE">DE</option>
+            <option value="DG">DG</option>
+            <option value="DK">DK</option>
+            <option value="DP">DP</option>
+            <option value="DR">DR</option>
+            <option value="DT">DT</option>
+            <option value="DW">DW</option>
+            <option value="E">E</option>
+            <option value="EA">EA</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="K">K</option>
+            <option value="KH">KH</option>
+            <option value="KT">KT</option>
+            <option value="KU">KU</option>
+            <option value="L">L</option>
+            <option value="M">M</option>
+            <option value="N">N</option>
+            <option value="P">P</option>
+            <option value="PA">PA</option>
+            <option value="R">R</option>
+            <option value="S">S</option>
+            <option value="T">T</option>
+            <option value="W">W</option>
+            <option value="Z">Z</option>
+          </select>
+        </div>
+        <div class="search-butt">
+          <button class="search-button" onclick="getInputValue()">
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <a
+        href="https://insureka.com/asuransi-mobil?utm_source=samsatpajak&utm_medium=banner&utm_campaign=samsatpajak-banner"
+      >
+        <img src="images/banner2.jpg" alt="" />
+      </a>
+    </div>
+    <!--------------------
+        News SECTION 
+    ----------------------->
+    <div class="news-container">
+      <article class="container news" id="news">
+        <div class="right-news">
+          <h1>Cek Pajak Indonesia: Cara Mudah Cek Pajak Kendaraan Anda</h1>
+          <p>
+            Melacak pajak kendaraan Anda adalah tanggung jawab penting bagi
+            setiap pemilik kendaraan di Indonesia. Kelalaian membayar pajak
+            tepat waktu dapat mengakibatkan denda dan konsekuensi hukum.
+            Syukurlah, dengan kemajuan teknologi, proses pengecekan pajak
+            kendaraan Anda menjadi jauh lebih mudah dan mudah diakses. Pada
+            artikel ini, kami akan mengeksplorasi pentingnya memeriksa pajak
+            kendaraan Anda, pentingnya Cek Pajak Indonesia, dan bagaimana Cek
+            Pajak Kendaraan berfungsi sebagai alat yang berharga bagi semua
+            pemilik kendaraan.
+          </p>
+        </div>
+        <div class="left-news">
+          <a
+            href="https://insureka.com/asuransi-mobil?utm_source=samsatpajak&utm_medium=banner&utm_campaign=samsatpajak-banner"
+          >
+            <img src="images/banner11.jpg" alt="" />
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <footer class="footer">
+      <h5>&copy; 2023 Insureka. All rights reserved.</h5>
+    </footer>
+
+    <script src="data.js"></script>
+  </body>
+</html>
